@@ -1,40 +1,55 @@
 <!DOCTYPE html>
 <html lang="en">
-<head>
-    <meta charset="UTF-8">
-    <meta http-equiv="X-UA-Compatible" content="IE=edge">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <link href="/dist/output.css" rel="stylesheet">
-    <link href="input.css" rel="stylesheet">
-    <script src="https://kit.fontawesome.com/d5317be683.js" crossorigin="anonymous"></script>
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link href="/dist/output.css" rel="stylesheet" />
+    <link href="input.css" rel="stylesheet" />
+    <script
+      src="https://kit.fontawesome.com/d5317be683.js"
+      crossorigin="anonymous"
+    ></script>
     <title>Document</title>
-</head>
-<body>
+  </head>
+  <body>
     <div class="hero w-screen h-screen">
-        <div class="header text-center py-10">
-            <h2 class=" text-3xl sm:text-5xl md:text-7xl  font-bold text-white">WE ARE OPENING SOON</h2>
-            <p class=" md:leading-7 md:tracking-wide text-sm sm:text-md text-white  w-[80%] md:w-1/2   sm:mt-8 md:mt-24 mt-4 text-center mx-auto">We are preparing something amazing and exciting for you. Add 
-                your email below and be among the first to know when we launch!
-            </p>
-        </div>
-        
-        <div class="input_container w-[90%] mt-10 sm:mt-0  md:w-1/2 md:mb-8 text-center mx-auto">
-            <h5  class="font-bold text-white text-lg sm:text-xl md:text-2xl">SUBSCRIBE NOW</h5>
-            <div class="input_content flex flex-col md:flex-row mt-4">
-                <input type="email" class="w-[100%] md:w-[70%]  border  md:rounded-l-lg p-4 bg-[rgba(0,0,0,.5)] font-gray-900 text-white" placeholder="Please enter your email"/>
-                <button class="w-[100%] md:w-[25%] hover:cursor-pointer hover:bg-black hover:text-white transition-all duration-700 text-GRAY-700 font-bold md:rounded-r-lg p-4 bg-white" type="button">Subscribe</button>
-            </div>
-        </div>
-        <div class="social_media w-1/2 sm:gap-20 mb-8 justify-center text-center flex items-center mx-auto mt-4 sm:mt-10 md:mt-20 lg:mt-40"> <span class="text-white tracking-widest">Connect with us</span>
-            
-        </div>
+      <div class="header text-center w-full py-10">
+        <!-- <h2 class=" text-3xl sm:text-5xl md:text-7xl  font-bold text-white">WE ARE OPENING SOON</h2> -->
 
-        <div class="w-1/2 gap-8 mb-8 justify-center text-center flex items-center mx-auto ">
-            <a class="" href="instagram.com"><i class="fa-brands text-white transition-all duration-500 hover:cursor-pointer hover:text-gray-700 text-2xl fa-instagram  "></i></a>
-            <a href="twitter.com"><i class="fa-brands transition-all duration-500 hover:cursor-pointer hover:text-gray-700  text-white text-2xl fa-twitter"></i></a>
-        </div>
+        <img class=" hm_logo mx-auto  md:w-1/5" src="./assets/hmlogo.png" />
+        <p class="desc">
+          Ready to 10x your sales? Be the first to join our waiting list, Get
+          notified when our product is Live! Subscribe below.
+        </p>
+      </div>
 
-       
+      <div
+        class="input_container w-[90%] sm:mt-10 md:w-1/4 md:mb-8 text-center mx-auto"
+      >
+        <h5 class="font-bold text-white text-lg sm:text-xl md:text-2xl">
+          SUBSCRIBE NOW
+        </h5>
+        <div class="sub_input_container">
+          <input
+            type="text"
+            placeholder="Please enter your email"
+            class="sub_input"
+          />
+          <button class="sub_input_btn">SUBSCRIBE</button>
+        </div>
+      </div>
+      <div class="icons_container">
+       <div class="icons">
+        <a class="social_links" href="facebook.com"><i class="fa-brands fa-facebook"></i></a>
+        <a class="social_links" href="twitter.com"> <i class="fa-brands fa-twitter"></i></a>
+        <a class="social_links" href="instagram.com"><i class="fa-brands fa-instagram"></i></a>
+        <a class="social_links" href="#"><i class="fa-brands fa-whatsapp"></i></a>
+       </div>
+      </div>
+      <footer>
+        <p>2023 Hair Market Coming Soon. All Rights Reserved | Designed By Remedy Portal</p>
+      </footer>
     </div>
-</body>
+  </body>
 </html>

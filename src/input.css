@@ -13,7 +13,7 @@
 }
 
 body {
-  background-image: url("mainbg2.jpg");
+  background-image: url("mainbg2x.jpg");
   width: 100vw;
   height: 100vh;
   background-size: cover;
@@ -27,15 +27,147 @@ body {
     font-family: 'Playfair Display', serif;
 }
 
-.social_media {
-   
-    border-bottom: 1px solid rgba(255,255,255,.3);
-    padding-bottom: 1rem;
-    margin-bottom: 1rem;
+.header{
+    width: 100%;
 }
 
-@media  screen and (max-width:375) {
+.hm_logo{
+    width: 30%;
+}
+
+
+
+.desc{
+    font-size: 1.1rem;
+    color: #fff;
+    width: 35%;
+    margin: 1rem auto;
+    margin-top: 3rem;
+}
+
+.sub_input_container{
+    margin-top: 2rem;
+    width: 50%;
+    display: flex;
+    flex-direction: row;
+    margin-left: auto;
+    margin-right: auto;
+    gap: 3%;
+}
+
+.sub_input{
+    width: 70%;
+    padding: .7rem;
+    border-radius: .3rem;
+    background-color: rgba(225,225,225,0.4);
+    color: #fff;
+}
+
+.sub_input:focus{
+    outline: none;
+    border: 0;
+}
+
+.sub_input_btn{
+    background-color: #EB944E;
+    padding: .7rem;
+    font-weight: 600;
+    color: #fff;
+    border-radius: .3rem;
+    transition: all .3s ease;
+    width:fit-content;
+}
+
+.sub_input_btn:hover{
+    background-color: #833B07;
+}
+
+.icons_container{
+    width: 50%;
+    margin: 0 auto;
+}
+
+.icons{
+    display: flex;
+    gap: 5%;
+    width: 50%;
+    margin: 0 auto;
+    justify-content: center;
+}
+
+.social_links i{
+font-size: 1.5rem;
+color: #fff;
+transition: .3s all ease;
+
+}
+
+.social_links i:hover{
+    transform: scale(1.2);
+    
+    }
+
+    footer{
+        height: 10vh;
+        width: 100vw;
+        
+        text-align: center;
+        font-size: 14px;
+        position: fixed;
+        bottom: 0;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        color: rgba(209, 209, 209, 0.8);
+    }
+
+    footer p{
+        max-width: 80%;
+    }
+
+
+    @media  screen and (max-width:700px) {
+       
+        
+        .desc{
+            width: 60%;
+        }
+    }    
+
+
+
+@media  screen and (max-width:375px) {
     .header h2{
         font-size: 2.5rem;
     }
+    .hm_logo {
+         width: 60%;
+    }
+    .desc{
+        width: 80%;
+    }
+
+    .sub_input_container{
+        margin-top: 2rem;
+        width: 80%;
+        
+        flex-direction: column;
+       justify-content: space-between;
+        gap: 3%;
+    }
+
+    .sub_input{
+       
+        width: 100%;
+        margin-bottom: .5rem;
+    }
+ .sub_input_btn{
+       
+        width: 100%;
+        
+    }
+    .footer p{
+        font-size: 12px;
+    }
 }
+   
